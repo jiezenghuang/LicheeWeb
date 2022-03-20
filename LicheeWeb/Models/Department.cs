@@ -7,6 +7,7 @@ namespace LicheeWeb.Models
         public int Id { get; set; }
         [Display(Name = "名称")]
         public string Name { get; set; }
+        [Display(Name = "客户部门")]
         public bool IsCustomer { get; set; }
         [Display(Name = "负责人")]
         public ICollection<Staff> Manager { get; set; }
